@@ -35,19 +35,38 @@
 }
 
 .learn-more {
-  background-color: #f7f7f7;
+  background-color: black;
 }
 
 .learn-more h3 {
   font-family: 'Shift', sans-serif;
   font-size: 18px;
   font-weight: bold;
+  color: white;
 }
 
 .learn-more a {
-  color: #00b0ff;
+  color: white;
+}
+
+.learn-more p {
+  color: white;
 }
 
 .jumbotron .right {
     text-align: right;
     float: right;
+}
+
+.panel-collapse {
+  margin-bottom: 20px;
+  background-color: black;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.canary {
+  background-color: black;
+}
