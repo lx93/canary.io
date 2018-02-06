@@ -1,25 +1,38 @@
 .nav a {
   color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
+  font-size: 16px;
 }
 
-.nav li {
-  display: inline;
+.canarytab {
+  background-color: black;
+  height: 50px;
 }
+
+.nav-pills{
+  display: flex;
+}
+
+
+.nav-pills li {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-pills a {
+  flex: 1;
+  text-align: center;
+}
+
 
 .jumbotron {
-  background-image:url('canary.jpg');
-  height: 500px;
+  height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+  top:200px;
 }
 
 .jumbotron h1 {
@@ -34,6 +47,13 @@
   color: #fff;
 }
 
+
+.jumbotron .right {
+    text-align: right;
+    float: right;
+}
+
+
 .learn-more {
   background-color: black;
 }
@@ -42,21 +62,17 @@
   font-family: 'Shift', sans-serif;
   font-size: 18px;
   font-weight: bold;
-  color: white;
+  color: white;canary
 }
 
 .learn-more a {
   color: white;
 }
 
-.learn-more p {
+.learn-more p {;
   color: white;
 }
 
-.jumbotron .right {
-    text-align: right;
-    float: right;
-}
 
 .panel-collapse {
   margin-bottom: 20px;
@@ -67,6 +83,3 @@
           box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 
-.canary {
-  background-color: black;
-}
